@@ -1,0 +1,30 @@
+/* CSS for dream.engr.uconn.edu */
+/* Enter Your Custom CSS Here */
+.research-areas {
+padding-top:25px
+}
+
+.h3-highlight h3 a:hover {
+text-decoration:underline
+}
+
+.h3-highlight h3.h3::after,.h3-highlight h3::after {
+content:"";
+width:45px;
+height:5px;
+display:block;
+background-color:navy;
+position:relative;
+top:5px;
+margin-top:2px
+}
+
+.h3-highlight h3.h3:hover::after,.h3-highlight h3:hover::after {
+transition:.25s;
+background-color:navy;
+width:100px
+}
+
+span.glyphicon-new-window {
+display:none
+}
